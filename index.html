@@ -1,0 +1,53 @@
+<!DOCTYPE>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, inital-scale=1.0">
+   </head>
+   <link rel="stylesheet" href="styles.css">
+   <div class="container">
+      <div class="box">
+         <body>
+            
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Thank you for helping us improve our platform</p>
+  <form id="survey-form">
+ <label id="name-label">Name<input id="name" type="text" required placeholder="John"></label>
+   <br> <label id="email-label">Email<input id="email" type="email" required placeholder="1234@gmail.com"></label>
+   <br> <label id="number-label">Age<input id="number" type="number" min="0" max="120" placeholder="20"></label>
+ <br>Which option best describes your current role?<br><select id="dropdown" placeholder="Select current role">
+    <option>Student</option>
+    <option>Part Time</option>
+    <option>Full Time</option>
+    <option>Prefer not to say</option>
+ </select>
+ <br>
+ What is your gender?
+ <br>
+ <input type="checkbox" name="male" value="male">Male
+ <input type="checkbox" name="female" value="female">Female
+ <input type="checkbox" name="other" value="other">Other
+ <br>
+  <fieldset name="group1">
+ Would you recommend freeCodeCamp to a friend?
+ <br><input type="radio" name="radiogroup1" value="definitely">Definitely
+ <br><input type="radio" name="radiogroup1" value="maybe">Maybe
+ <br><input type="radio" name="radiogroup1" value="not sure">Not Sure
+ <br>
+ <textarea placeholder="Do you want to elaborate">
+    </textarea>
+ </fieldset>
+ 
+ <fieldset name="group2">
+    What would you like to see improved?
+<input type="radio" name="radiogroup2" value="front-end-projects">Front end projects
+<input type="radio" name="radiogroup2" value="back-end-projects">Back end projects
+    <textarea placeholder="Why did you give it this rating">
+       </textarea>
+       <br>
+       <input type="submit" id="submit">
+
+</form>
+</body>
+</div>
+</div>
